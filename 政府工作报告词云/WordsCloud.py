@@ -2,7 +2,7 @@ import jieba
 import wordcloud
 from scipy.misc import imread
 mask=imread("chinamap.jpg")
-f=open("threekingdoms.txt","r",encoding="utf-8")
+f=open("新时代中国特色社会主义.txt","r",encoding="utf-8")
 t=f.read()
 f.close
 ls=jieba.lcut(t)
