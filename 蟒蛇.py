@@ -1,0 +1,27 @@
+    #PythonDraw.py
+import turtle
+turtle.setup(650, 350, 200, 200)
+turtle.penup()
+turtle.fd(-250)
+turtle.pendown()
+turtle.pensize(25)
+
+turtle.seth(-40)
+for i in range(4):
+    turtle.pencolor("purple")
+    turtle.circle(40, 40)
+    turtle.pencolor("blue")
+    turtle.circle(40, 40)
+    turtle.pencolor("yellow")
+    turtle.circle(-40, 40)
+    turtle.pencolor("red")
+    turtle.circle(-40, 40)
+turtle.pencolor("purple")
+turtle.circle(40, 80/2)
+turtle.pencolor("blue")
+turtle.fd(40)
+turtle.pencolor("yellow")
+turtle.circle(16, 180)
+turtle.pencolor("green")
+turtle.fd(40 * 2/3)
+turtle.down()
